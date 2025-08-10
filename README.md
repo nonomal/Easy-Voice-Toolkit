@@ -1,14 +1,19 @@
 <div align = "center">
 
+![Title](/docs/media/Title.png "Home Page")
+
 # Easy Voice Toolkit
 
-![Title](/docs/media/Title.png "Home Page")
+A toolkit based on open source voice projects，which provides a variety of automated audio tools:
+<br>[Audio Processing](/docs/EN/Audio-Processor.md), [Voice Recognition](/docs/EN/Voice-Recognizer.md), [Voice Transcription](/docs/EN/Voice-Transcriber.md), [Dataset Creating (For Voice Conversion)](/docs/EN/Dataset-Creator.md), [Model Training (For Voice Conversion)](/docs/EN/Voice-Trainer.md), and [Voice Conversion](/docs/EN/Voice-Converter.md)
+<br>Users can use these tools selectively according to their own needs, or use them in sequence to gradually transform raw audio files into ideal speech models
 
 [![Releases](https://img.shields.io/github/v/release/Spr-Aachen/Easy-Voice-Toolkit?color=green&label=Release&logo=Github&logoColor=white&style=for-the-badge)](https://github.com/Spr-Aachen/Easy-Voice-Toolkit/releases/latest)&nbsp;
 [![Bilibili](https://img.shields.io/badge/Bilibili-v1.0%20Intro-blue?logo=Bilibili&style=for-the-badge)](https://www.bilibili.com/video/BV1uJ4m157P2)&nbsp;
 [![YouTube](https://img.shields.io/badge/YouTube-v1.0%20Intro-red?logo=YouTube&style=for-the-badge)](https://www.youtube.com/watch?v=)
 
 </div>
+
 
 <p align = "center">
     <a href = "https://ko-fi.com/spr_aachen">
@@ -24,34 +29,7 @@
 </div>
 
 
-## Description
-
-### Overview
-
-A toolkit based on open source voice projects，which provides a variety of automated audio tools including speech model training
-
-Functions that are currently included in the toolkit are as follows:
-
-- [Audio Processing](/docs/EN/Audio-Processor.md)
-
-- [Voice Recognition](/docs/EN/Voice-Recognizer.md)
-
-- [Voice Transcription](/docs/EN/Voice-Transcriber.md)
-
-- [Dataset Creating (For Voice Conversion)](/docs/EN/Dataset-Creator.md)
-
-- [Model Training (For Voice Conversion)](/docs/EN/Voice-Trainer.md)
-
-- [Voice Conversion](/docs/EN/Voice-Converter.md)
-
-<br>These functions can be seamlessly integrated to form a complete workflow
-<br>Users can use these tools selectively according to their own needs, or use them in sequence to gradually transform raw audio files into ideal speech models
-
-### Frame
-
-[![Pytorch](https://img.shields.io/badge/PYtorch-test?style=for-the-badge&logo=pytorch&logoColor=white&color=orange)](https://pytorch.org/)[![Static Badge](https://img.shields.io/badge/Pyside6-test?style=for-the-badge&logo=qt&logoColor=white)](https://doc.qt.io/qtforpython-6/PySide6/QtWidgets/index.html)
-
-### Acknowledgement
+## Acknowledgement
 
 I'd like to express my sincere gratitude to the authors of the following projects, as their excellent work has contributed to the implementation of this toolkit
 
@@ -62,11 +40,11 @@ I'd like to express my sincere gratitude to the authors of the following project
 - [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)
 
 
-## Consideration
+## Specifications
 
 ### System
 
-Currently the released versions only support Windows system
+Currently the released versions only support `Windows` system
 
 ### Language
 
@@ -126,6 +104,8 @@ Languages that are currently supported/unsupported by the toolkit are shown as f
 ### Local Deployment - User
 
 #### Download
+
+[![Download Portable Version](https://img.shields.io/badge/:-Download%20Portable%20Version-yellow?logo=HuggingFace)](https://huggingface.co/SprAachen/Easy-Voice-Toolkit-Package/resolve/main/EVT_windows_x64.7z?download=true)
 
 You have two options：
 
@@ -188,18 +168,6 @@ Please make sure that you've installed [Python](https://www.python.org/downloads
 <br>Click to use the demo above, or access to Colab and upload [run.ipynb](https://github.com/Spr-Aachen/Easy-Voice-Toolkit/blob/main/run.ipynb)
 
 
-## Future Features
-
-### ToDo
-- Add chatbot (LLM) integration
-- Refactor client with C++ (Qt)
-
-### WIP
-- Backend development
-- Internationalization
-- Add support for Linux OS
-
-
 ## FAQ
 
 -   **Q**: What should I do if the client update / dependency download always fails or gives an error?
@@ -229,6 +197,18 @@ Please make sure that you've installed [Python](https://www.python.org/downloads
 6. If you use this project for any other plan, please contact and inform the author of this repository in advance. Thank you very much.
 
 Reference: [so-vits-svc](https://github.com/svc-develop-team/so-vits-svc)
+
+
+## Future Features
+
+### ToDo
+- Add chatbot (LLM) integration
+- Refactor client with C++ (Qt)
+
+### WIP
+- Backend development
+- Internationalization
+- Add support for Linux OS
 
 
 ## Contact Details
